@@ -16,4 +16,7 @@ export class NavbarComponent implements OnInit{
   goBrandPage(){
     this.route.navigate(['/brand']);
   }
+  goHomePage(){
+    this.route.navigate(['/home']);
+  }
 }
