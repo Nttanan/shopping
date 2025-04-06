@@ -1,0 +1,41 @@
+.slider {
+  width: 100vw;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  height: 80vh;
+  background-color: black;
+}
+
+.slides {
+  display: flex;
+  animation: slide 30s infinite;
+}
+
+.slide {
+  object-fit: contain;
+  object-position: center;
+  aspect-ratio: 16/9;
+  width: 100%;
+  flex-shrink: 0;
+  height: 80vh;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  33%  { transform: translateX(-100%); }
+  66%  { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+
+.footer{
+  height: 10vh;
+  padding: 8.5px;
+  background: linear-gradient(90deg, rgba(251,189,63,1) 0%, rgba(252,109,70,1) 100%);
+}
+
+.footer-text{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}

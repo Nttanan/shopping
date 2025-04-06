@@ -1,0 +1,59 @@
+.logo {
+  width: 80px;
+  object-fit: cover;
+}
+
+.logo:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition: 1s ease-in-out;
+  filter: brightness(0.8);
+}
+
+.logo-container {
+  background-color: white;
+  clip-path: circle(50%);
+}
+
+nav {
+  height: 10vh;
+  padding: 10px;
+  background: linear-gradient(90deg, rgba(251,189,63,1) 0%, rgba(252,109,70,1) 100%);
+  color: white;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+.title-container b h1:first-child {
+  color: black;
+  font-weight: bold;
+}
+.title-container b h1:last-child {
+  color: red;
+  font-weight: bold;
+}
+
+/* .title-promote {
+  background-color: white;
+  color: black;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  position: absolute;
+  top: 55px;
+  scale: 0.5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+} */
+.btn-menu {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  font-weight: 700;
+}
+.btn-menu:hover {
+  cursor: pointer;
+  scale: 1.05;
+  transition: 1s ease-in-out;
+}
