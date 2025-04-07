@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-brand',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class BrandComponent {
 
+  constructor(private router:Router) { }
+  goToModelPage(model:string){
+    this.router.navigate(['/model',model]);
+  }
 }

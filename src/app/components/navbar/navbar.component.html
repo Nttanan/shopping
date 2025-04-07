@@ -14,6 +14,8 @@
    </section>
 
    <section class="d-flex gap-3">
-     <button class="btn-menu" (click)="goBrandPage()">เลือกรุ่นรถของท่าน</button>
+     <button *ngIf="checkPath()" class="btn-menu" (click)="goBrandPage()">เลือกรุ่นรถของท่าน</button>
+     <button *ngIf="!checkPath() && !isNotfoundPage()" class="btn-menu" (click)="goLocation()">< Back</button>
+     <button *ngIf="isNotfoundPage()" class="btn-menu" (click)="goBrandPage()">< Back</button>
    </section>
 </nav>

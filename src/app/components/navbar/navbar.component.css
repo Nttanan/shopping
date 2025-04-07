@@ -6,7 +6,7 @@
 .logo:hover {
   cursor: pointer;
   scale: 1.1;
-  transition: 1s ease-in-out;
+  /* transition:1s ease-in-out; */
   filter: brightness(0.8);
 }
 
@@ -55,5 +55,5 @@ nav {
 .btn-menu:hover {
   cursor: pointer;
   scale: 1.05;
-  transition: 1s ease-in-out;
+  /* transition: 1s ease-in-out; */
 }
