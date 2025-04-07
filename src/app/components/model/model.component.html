@@ -1,10 +1,12 @@
 <div class="text-center mt-5">
   <h1 class="upper-case">{{modelName}}</h1>
 </div>
-  <div class="row justify-content-center">
-    <div class="col-12 col-sm-4 col-md-3 m-2 card-container" *ngFor="let item of carDatas">
-      <img class="card-img-top" [src]="item.image" alt="Card image cap">
-      <h5 class="card-title">{{item.brand}} : {{item.model}}</h5>
+  <div class="row px-5">
+    <div class="col-12 col-sm-4 col-md-3  p-3" *ngFor="let item of carDatas">
+      <div class="card-container">
+        <img class="card-img-top" [src]="item.image" alt="Card image cap">
+        <h5 class="card-title">{{item.brand}} : {{item.model}}</h5>
+      </div>
       <!-- <p class="card-text">Price: {{item.price | currency:'THB'}}</p> -->
       <!-- <button class="btn btn-primary" (click)="goToDetailPage(item)">View Details</button> -->
     </div>
