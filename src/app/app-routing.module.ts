@@ -10,11 +10,11 @@ const routes: Routes = [
   {path: 'home', component:HomeComponent},
   {path: 'brand', component:BrandComponent},
   {
-    path:'model/:modelName',
+    path:'model/:brandName',
     component:ModelComponent
   },
   {
-    path:'notfound',
+    path:'notfound/:brandName',
     component:NotFoundComponent
   }
 ];

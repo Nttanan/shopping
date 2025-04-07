@@ -68,6 +68,65 @@
       "brand":"Honda",
       "model":"BR-V",
       "image":"assets/images/honda/brv.png"
+    },
+    {
+      "brand":"Nissan",
+      "model":"Almera",
+      "image":"assets/images/nissan/almera.jpg"
+    },{
+      "brand":"Nissan",
+      "model":"Navara",
+      "image":"assets/images/nissan/navara.jpg"
+    },
+    {
+      "brand":"Nissan",
+      "model":"Kick",
+      "image":"assets/images/nissan/kick.jpg"
+    },
+    {
+      "brand":"Mazda",
+      "model":"Mazda 2 (sedan)",
+      "image":"assets/images/mazda/mazda2.webp"
+    },
+    {
+      "brand":"Mazda",
+      "model":"Mazda 2",
+      "image":"assets/images/mazda/mazda2-ht.webp"
+    },
+    {
+      "brand":"Mazda",
+      "model":"Mazda 3",
+      "image":"assets/images/mazda/mazda3.webp"
+    },
+    {
+      "brand":"Mazda",
+      "model":"Mazda 3 (sedan)",
+      "image":"assets/images/mazda/mazda3-seedan.webp"
+    },
+    {
+      "brand":"Mazda",
+      "model":"CX-3",
+      "image":"assets/images/mazda/cx3.webp"
+    },
+    {
+      "brand":"Mazda",
+      "model":"CX-5",
+      "image":"assets/images/mazda/cx5.webp"
+    },
+    {
+      "brand":"Suzuki",
+      "model":"Swift",
+      "image":"assets/images/suzuki/swift.png"
+    },
+    {
+      "brand":"Suzuki",
+      "model":"Celerio",
+      "image":"assets/images/suzuki/celerio.png"
+    },
+    {
+      "brand":"Mitsubishi",
+      "model":"Pajero Sport",
+      "image":"assets/images/mitsu/pajero-sport.webp"
     }
   ]
 }

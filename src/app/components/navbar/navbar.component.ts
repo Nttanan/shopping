@@ -26,6 +26,6 @@ export class NavbarComponent implements OnInit{
     return this.route.url == '/home';
   }
   isNotfoundPage(){
-    return this.route.url == '/notfound';
+    return this.route.url.includes('/notfound');
   }
 }

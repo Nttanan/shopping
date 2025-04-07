@@ -9,23 +9,23 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./model.component.css']
 })
 export class ModelComponent implements OnInit{
-  modelName:string = '';
+  brandName:string = '';
   carDatas:Model[] = [];
   constructor(private service:ModelService, private route:ActivatedRoute, private router:Router) { }
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      this.modelName = params['modelName'];
+      this.brandName = params['brandName'];
       this.service.getCar().subscribe((res:CarData) => {
         if(res && res.data.length > 0)
         {
-          let car = res.data.filter((car:Model) => car.brand.toLowerCase() == this.modelName.toLowerCase());
+          let car = res.data.filter((car:Model) => car.brand.toLowerCase() == this.brandName.toLowerCase());
           if(car.length > 0)
           {
             this.carDatas = car;
           }
           else
           {
-            this.router.navigate(['/notfound']);
+            this.router.navigate(['/notfound',this.brandName]);
           }
         }
       });

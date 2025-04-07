@@ -28,3 +28,8 @@
 body{
   overflow-x:hidden;
 }
+
+.upper-case{
+  text-transform: uppercase;
+  font-weight: bolder;
+}
